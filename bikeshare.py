@@ -280,8 +280,8 @@ def display_filter_Data(df):
         ask4data_check = ['Press <RETURN>', 'no']
         ask4data = input(f'Would you like to see more raw data?  Options available are: {ask4data_check}  ')
 
-        # Deal with minor typo errors with CAPS and/or spaces ie 'No' when we want 'no'
-        ask4data = ask4data.lower().replace(" ", "").strip()
+        # Deal with minor typo errors.
+        ask4data = atypo_check(ask4data)
 
         # Set iloc range for next 5 rows
         start_row += 5
