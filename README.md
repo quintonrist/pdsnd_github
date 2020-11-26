@@ -31,3 +31,4 @@ https://towardsdatascience.com/
 
 ###### Markdown help in websites:
 https://wordpress.com/support/markdown-quick-reference/
+https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
