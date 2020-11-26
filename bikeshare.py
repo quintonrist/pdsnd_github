@@ -307,6 +307,12 @@ def input_check(question, options):
     return check
 
 
+def typo_check(answer):
+    """Deal with minor typo errors with CAPS and/or spaces ie 'New York' when we want 'newyork'"""
+    rework = answer.lower().replace(" ", "").strip()
+    return rework
+    
+
 def main():
     while True:
         # Watch for keyboard interrupt
