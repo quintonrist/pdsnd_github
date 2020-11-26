@@ -294,8 +294,8 @@ def input_check(question, options):
     
     check = input(f'\n{question}? \nOptions available are: {options}\n\n? ')
 
-    # Deal with minor typo errors with CAPS and/or spaces ie 'New York' when we want 'newyork'
-    check = check.lower().replace(" ", "").strip()
+    # Deal with minor typo errors.
+    check = typo_check(check)
     
     # Check if correct characters in list of answers
     while check not in options:
@@ -311,7 +311,7 @@ def typo_check(answer):
     """Deal with minor typo errors with CAPS and/or spaces ie 'New York' when we want 'newyork'"""
     rework = answer.lower().replace(" ", "").strip()
     return rework
-    
+
 
 def main():
     while True:
