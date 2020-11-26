@@ -40,7 +40,7 @@ def get_filters():
         good_job = (f'\n\nGood job! We are now going to explore "{city}", in "{month}", on a "{day}"!\n\n')
         print('\n', stars, good_job, stars, sep="")
 
-
+    # Returns to main with filter for city, month and day
     return city, month, day
 
 
