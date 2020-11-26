@@ -9,7 +9,7 @@ The Bikeshare Project is a python code which analyses data from bike sharing in 
 Data is supplied via .csv files stored locally.
 The code provides an interactive enviroment.
 A user can choose and filter the data.
-Filter by city.
+Filter by city, month and day.
 
 ### Files used
 bikeshare.py
