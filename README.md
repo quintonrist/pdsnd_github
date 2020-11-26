@@ -1,15 +1,33 @@
 ### Date created
-Include the date you created this project and README file.
+25th November 2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+The Bikeshare Project is a python code which analyses data from bike sharing in American cities.
+Data is supplied via .csv files stored locally.
+The code provides an interactive enviroment.
+A user can choose and filter the data.
 
 ### Files used
-Include the files used
+bikeshare.py
+
+###### Stored Locally
+chicago.csv
+new_york_city.csv
+washington.csv
+
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+###### Coding help in books:
+Python Crash Course 2nd Edition by Eric Mathes
+
+###### Coding help in websites:
+https://stackoverflow.com/
+https://www.geeksforgeeks.org/
+https://towardsdatascience.com/
+
+###### Markdown help in websites:
+https://wordpress.com/support/markdown-quick-reference/
