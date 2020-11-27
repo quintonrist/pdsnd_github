@@ -15,9 +15,9 @@ Filter by city, month and day.
 bikeshare.py
 
 ###### Stored Locally
-chicago.csv
-new_york_city.csv
-washington.csv
+chicago.csv<Br>
+new_york_city.csv<Br>
+washington.csv<Br>
 
 
 ### Credits
@@ -26,10 +26,10 @@ washington.csv
 Python Crash Course 2nd Edition by Eric Mathes
 
 ###### Coding help in websites:
-https://stackoverflow.com/
-https://www.geeksforgeeks.org/
-https://towardsdatascience.com/
+https://stackoverflow.com/<Br>
+https://www.geeksforgeeks.org/<Br>
+https://towardsdatascience.com/<Br>
 
 ###### Markdown help in websites:
-https://wordpress.com/support/markdown-quick-reference/
-https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+https://wordpress.com/support/markdown-quick-reference/<Br>
+https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf<Br>
